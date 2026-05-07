@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
+        .container { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); max-width: 800px; margin: 0 auto; }
+        h1 { color: #333; margin-bottom: 20px; text-align: center; font-size: 28px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { padding: 12px 10px; border: 1px solid #e0e0e0; text-align: left; color: #555; }
+        th { background: #667eea; color: white; }
+        tr:nth-child(even) td { background: #fafafa; }
+        .back-link { display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #667eea; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s ease; }
+        .back-link:hover { background-color: #764ba2; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exemplo de Tabela</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Categoria</th>
+                    <th>Preço</th>
+                    <th>Disponibilidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Teclado</td>
+                    <td>Periféricos</td>
+                    <td>R$ 120,00</td>
+                    <td>Em estoque</td>
+                </tr>
+                <tr>
+                    <td>Monitor</td>
+                    <td>Periféricos</td>
+                    <td>R$ 950,00</td>
+                    <td>Em estoque</td>
+                </tr>
+                <tr>
+                    <td>Mouse</td>
+                    <td>Periféricos</td>
+                    <td>R$ 60,00</td>
+                    <td>Esgotado</td>
+                </tr>
+                <tr>
+                    <td>Notebook</td>
+                    <td>Computadores</td>
+                    <td>R$ 3.200,00</td>
+                    <td>Pré-venda</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="../index.html" class="back-link">Voltar para Home</a>
+    </div>
+</body>
+</html>

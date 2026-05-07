@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 7</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        a {
+            display: block;
+            padding: 15px 20px;
+            background-color: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #764ba2;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Atividade 7</h1>
+        <nav class="links">
+            <a href="pages/listaOrdenada.html">Lista Ordenada</a>
+            <a href="pages/listaNaoOrdenada.html">Lista Não Ordenada</a>
+            <a href="pages/listaDeDefinicao.html">Lista de Definição</a>
+            <a href="pages/listaAssociativa.html">Lista Associativa</a>
+            <a href="pages/listaAninhada.html">Lista Aninhada</a>
+            <a href="pages/tabela.html">Tabela</a>
+        </nav>
+    </div>
 </body>
 </html>
